@@ -9683,7 +9683,9 @@ textarea.form-control {
       font-weight: 900;
       font-size: 30px;
       text-indent: 30px;
+      text-align: center;
       margin-top: 30px;
+      margin-left: 45%;
       z-index: initial;
       text-decoration-color: var(--orange);
   }
