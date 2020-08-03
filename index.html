@@ -89,12 +89,36 @@
   
 }
 
+.mdq1 {
+  /**background-color: tan;
+  color: black;*/
+  font-size: 4vw;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  .mdq1 {
+/**    background-color: blue;
+    color: white;*/
+    font-size: 4vw;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .mdq1 {
+    /**background-color: olive;
+    color: white;*/
+    font-size: 2vw;
+  }
+}
+
 </style>
   
 </head>
 
-  <body style="background-color: rgb(155, 150, 139); >
-    <section class="cursor"></section>
+  <body style="background-color: rgb(155, 150, 139);"> 
+    <section class="cursor">
     <div id="page-wraper">
       <!-- Sidebar Menu -->
       <div class="responsive-nav">
@@ -115,7 +139,7 @@
                 <li><a href="#section0" class ="lcursor" style="font-size: 20px; font-weight: 600;">Home</a></li>
                 <li><a href="#section1" class ="lcursor" style="font-size: 20px; font-weight: 600;">About Me</a></li>
                 <li><a href="#section2" class ="lcursor" style="font-size: 20px; font-weight: 600;">Resume</a></li>
-                <li><a href="#section3" class ="lcursor" style="font-size: 20px; font-weight: 600;">My Gallery</a></li>
+         
                 <li><a href="#section4" class ="lcursor" style="font-size: 20px; font-weight: 600;">Contact Me</a></li>
               </ul>
             </nav></label>
@@ -153,15 +177,15 @@
           <!--<button  class="navbar-toggler" type="button" data-toggle="collapse">
             <span class="oi oi-menu"></span> Menu
           </button>-->
-          <div style="margin-left:5%; margin-top: 10%;">
-          <h5 style="text-align: center; color: burlywood; font-size: 40px;text-align: left; margin-left: -30px; width: 50%;">Hey I'm</h5>
-          <h1 style="text-align: center; color: burlywood; font-size: 60px; text-shadow: blueviolet;   text-shadow:  1px 1px red; text-align: left;margin-left: -30px; width: 70%;">Harshit Rana</h1>
-			  				<h2 style="text-align: center; color: burlywood; font-size: 40px; text-align: left;margin-left: -30px; width: 50%;">I'm a
+          <div   style="margin-left:5%; margin-top: 10%;">
+          <h5 class="mdq1" style="text-align: center; color: burlywood; font-size: 4vw;text-align: left; margin-left: -30px; width: 50%;">Hey I'm</h5>
+          <h1 style="text-align: center; color: burlywood; font-size: 8vw; text-shadow: blueviolet;   text-shadow:  1px 1px red; text-align: left;margin-left: -30px; width: 80%;">Harshit Rana</h1>
+			  				<h2 style="text-align: center; color: burlywood; font-size: 4vw; text-align: left;margin-left: -30px; ">I'm a
                 
-                <span style="font-size: 30px; color: burlywood; font-size: 40px;text-decoration: underline; text-align: left;  "
+                <span style="font-size: 30px; color: burlywood; font-size: 4vw;text-decoration: underline; text-align: left;  "
 								     class="txt-rotate"
 								     data-period="2000"
-								     data-rotate='[ "Web Designer.", "Developer.", "Photographer.", "Marketer.", "Blogger" ]'></span>
+								     data-rotate='[ "Web Designer.", "Developer.", "Graphic Designer.","Team Player.","Quick Learner.","Creative Person."]'></span>
                     </h2>
                   </div>
                 </div>
@@ -268,51 +292,51 @@
               <div id="page-4">
                 <h2 style="color: cornflowerblue; font-weight: 800;">skills</h2>
                 <div class="prgs">
-                <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
+                <h4 style="color: chocolate; font-weight: 600;">C/C++</h4>
                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
-                <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:25%"  >25%</div>
+                <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:60%"  >60%</div>
                </div>
                </div>
                <div class="prgs">
-               <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
+               <h4 style="color: chocolate; font-weight: 600;">Java/Android Studio</h4>
                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
-                <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:75%"  >75%</div>
+                <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:50%"  >50%</div>
                </div>
               </div>
               <div class="prgs">
-                <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
+                <h4 style="color: chocolate; font-weight: 600;">Python</h4>
+                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
+                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:35%"  >35%</div>
+                </div>
+               </div>
+               <div class="prgs" >
+                <h4 style="color: chocolate; font-weight: 600;">HTML/CSS</h4>
+                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
+                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:75%"  >75%</div>
+                </div>
+               </div>
+               <div class="prgs" >
+                <h4 style="color: chocolate; font-weight: 600;">JavaScript/jQuery</h4>
+                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
+                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:45%"  >45%</div>
+                </div>
+               </div>
+               <div class="prgs" >
+                <h4 style="color: chocolate; font-weight: 600;">Data Structure</h4>
                  <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
                  <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:50%"  >50%</div>
                 </div>
                </div>
                <div class="prgs" >
-                <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
+                <h4 style="color: chocolate; font-weight: 600;">SQL</h4>
                  <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
-                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:90%"  >90%</div>
+                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:50%"  >50%</div>
                 </div>
                </div>
                <div class="prgs" >
-                <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
+                <h4 style="color: chocolate; font-weight: 600;">Photoshop/Illustrator</h4>
                  <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
-                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:90%"  >90%</div>
-                </div>
-               </div>
-               <div class="prgs" >
-                <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
-                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
-                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:90%"  >90%</div>
-                </div>
-               </div>
-               <div class="prgs" >
-                <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
-                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
-                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:90%"  >90%</div>
-                </div>
-               </div>
-               <div class="prgs" >
-                <h4 style="color: chocolate; font-weight: 600;">Photoshop</h4>
-                 <div class="w3-light-grey w3-round-xlarge" style="width: 100%">
-                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:90%"  >90%</div>
+                 <div class="w3-container w3-blue w3-round-xlarge progress-bar-striped progress-bar-animated" style="width:80%"  >80%</div>
                 </div>
                </div>
                
@@ -329,7 +353,7 @@
         </div>
       </section>
 
-      <section class="section my-work" data-section="section3" id="section3">
+    <!--  <section class="section my-work" data-section="section3" id="section3">
         <div class="container">
           <div class="section-heading">
             <h2>My Gallery</h2>
@@ -538,7 +562,7 @@
           </div>
         </div>
       </section>
-
+    -->
       <section class="section contact-me" data-section="section4" id="section4">
         <div class="container">
           <div class="section-heading">
@@ -641,6 +665,7 @@
   <script src="assets/js/scrollax.min.js"></script>
   
   <script src="scroll.js"></script>
+  
   <!--<script src="cursor.js"></script>-->
 
   <script src="js/main.js"></script>
