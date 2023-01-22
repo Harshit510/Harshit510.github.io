@@ -24,7 +24,7 @@ anime.timeline({loop: true})
 
     // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
     var textArray = [
-    "Web Developer...","Graphic Designer...","Software Developer..."
+    "full stack web develpoer...","Graphic Designer..."
     ];
 
     // Speed (in milliseconds) of typing.
