@@ -119,30 +119,16 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-xs-12">
                                 <div class="right-text-content">
-                                                <div class="bar-1">
-                                                    <div class="title">C/C++</div>
-                                                        <div class="bar" data-width="75%">
-                                                            <div class="bar-inner">
-                                                            </div>
-                                                        <div class="bar-percent">75%</div>
-                                                    </div>
-                                                </div>
+                                              
                                             <div class="bar-1">
                                                 <div class="title" style="color: #084c61;">Java</div>
-                                                    <div class="bar" data-width="60%">
+                                                    <div class="bar" data-width="70%">
                                                         <div class="bar-inner" style="background: #084c61;">      
                                                         </div>
-                                                    <div class="bar-percent" style="text-align: center;">60%</div>
+                                                    <div class="bar-percent" style="text-align: center;">70%</div>
                                                     </div>
                                             </div>
-                                            <div class="bar-1">
-                                                <div class="title" style="color: #525252;">Python</div>
-                                                    <div class="bar" data-width="60%">
-                                                        <div class="bar-inner" style="background: #525252;">
-                                                        </div>
-                                                    <div class="bar-percent">60%</div>
-                                                    </div>
-                                            </div>
+
                                             <div class="bar-1">
                                                 <div class="title" style="color: #5a68a5">HTML/CSS</div>
                                                     <div class="bar" data-width="80%">
@@ -152,13 +138,22 @@
                                                     </div>
                                             </div>
                                             <div class="bar-1">
-                                                <div class="title" style="color: #154436">JavaScript/jQuery</div>
-                                                    <div class="bar" data-width="50%">
+                                                <div class="title" style="color: #154436">JavaScript/jQuery/AJAX</div>
+                                                    <div class="bar" data-width="80%">
                                                         <div class="bar-inner" style="background: #154436;">
                                                         </div>
-                                                    <div class="bar-percent">50%</div>
+                                                    <div class="bar-percent">80%</div>
                                                     </div>
                                             </div>
+                                            
+                                          <div class="bar-1">
+                                            <div class="title" style="color: #465c1e">SQL</div>
+                                                <div class="bar" data-width="60%">
+                                                    <div class="bar-inner" style="background: #465c1e;">
+                                                    </div>
+                                                <div class="bar-percent">60%</div>
+                                                </div>
+                                        </div>
                                             
             
                                 </div>
@@ -174,13 +169,13 @@
                                             </div>
                                     </div>
                                     <div class="bar-1">
-                                        <div class="title" style="color: #465c1e">SQL</div>
-                                            <div class="bar" data-width="60%">
-                                                <div class="bar-inner" style="background: #465c1e;">
-                                                </div>
-                                            <div class="bar-percent">60%</div>
-                                            </div>
-                                    </div>
+                                      <div class="title" style="color: #154436">Git</div>
+                                          <div class="bar" data-width="50%">
+                                              <div class="bar-inner" style="background: #154436;">
+                                              </div>
+                                          <div class="bar-percent">50%</div>
+                                          </div>
+                                  </div>
                                     <div class="bar-1">
                                         <div class="title" style="color: #775e29">Bootstrap</div>
                                             <div class="bar" data-width="60%">
@@ -197,14 +192,7 @@
                                             <div class="bar-percent">80%</div>
                                             </div>
                                     </div>
-                                    <div class="bar-1">
-                                        <div class="title" style="color: #df6c3f">Android Studio</div>
-                                            <div class="bar" data-width="60%">
-                                                <div class="bar-inner" style="background: #df6c3f;">
-                                                </div>
-                                            <div class="bar-percent">60%</div>
-                                            </div>
-                                    </div>                                  
+                                                                  
                                 </div>
                             </div>
                            
@@ -224,15 +212,36 @@
                               </div>
                               <div class="filters">
                                   <ul>
-                                      <li class="active" data-filter="*">All</li>
-                                      <li data-filter=".des">Graphics Design</li>
-                                      <li data-filter=".dev">Photography</li>
-                                      <li data-filter=".gra">Cooking</li>
+                                      <li onclick="fun()" data-filter="*">All</li>
+                                      <li onclick="fun()" data-filter=".des">Graphics Design</li>
+                                      <li onclick="fun()" data-filter=".dev">Photography</li>
+                                      <li onclick="fun()" data-filter=".gra">Cooking</li>
                                   </ul>
                               </div>
                           </div>
                           <div class="col-lg-9">
-                              <div class="filters-content">
+                              <div id="decs">
+                                <p>
+                                  Cooking and sports like cricket and kabaddi are two things that I enjoy doing a lot.
+                                  When I'm bored or stressed, I also enjoy listening to music. I enjoy watching nature and photographing it for my memories.
+                                </p>
+                               <br>
+                                <p>
+                                  I enjoy playing sports a lot. I have participated in kabaddi and cricket for both my school and college teams, and I was a member 
+                                  of my college's 11-man cricket squad during an inter-college tournament.
+                                </p>
+                                <br>
+                                <p>
+                                  I enjoy cooking a variety of cuisines because I am a huge foodie. I learned a lot about cooking during the Lockdown period while cooking with 
+                                  my mom and sister. I then realised how much I cherished cooking in my spare time.
+                                </p>
+                                <br>
+                                <p>One of my interests is graphic design. Using my abilities in graphic design, I can show my enjoyment of doing creative things.
+                                   As a member of numerous committees and a team member of their design team for numerous campus-sponsored events, I began my endeavour throughout my time in college.
+                                </p>
+                                
+                              </div>
+                              <div class="filters-content" id="filters" style="display: none;">
                                   <div class="row grid">
                                       
                                       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
@@ -382,7 +391,10 @@
         },2000)
         });  
         
-        
+        function fun()
+        {
+          $('#filters').css('display','block')
+        }
     </script>
 
     </body>
