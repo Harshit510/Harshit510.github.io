@@ -1587,6 +1587,7 @@ portfolio
 }
 #projects .filters ul {
   padding: 0;
+  padding-bottom: 25px;
 }
 #projects .filters ul li {
   list-style: none;
